@@ -1,6 +1,15 @@
 <app-navbar></app-navbar>
-<app-home></app-home>
 
-<app-contact></app-contact>
-<app-projects></app-projects>
-<router-outlet></router-outlet>
+<div class="pt-24"> <!-- Empuja el contenido para que no quede oculto tras el header fijo -->
+  <section id="home">
+    <app-home></app-home>
+  </section>
+
+  <section id="projects">
+    <app-projects></app-projects>
+  </section>
+
+  <section id="contact">
+    <app-contact></app-contact>
+  </section>
+</div>
